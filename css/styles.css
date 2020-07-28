@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.check {
+  border: 1px solid goldenrod;
+}
+
 /* ================== HEADER SECTION ================= */
 .banner {
   background-color: #f72210;
@@ -36,10 +40,8 @@ body {
   color: gray;
 }
 
-.test {
-  height:50px;
-  border: 1px solid green;
-  background-color: violet;
+.small-stories {
+  margin-bottom: 5%;
 }
 
 .debate {
