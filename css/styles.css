@@ -4,7 +4,7 @@ body {
 
 /* ================== HEADER SECTION ================= */
 .banner {
-  background-color: orangered;
+  background-color: #f72210 !important;
   /* height: 80px;
   width: 100%;
   display: flex; */
@@ -20,4 +20,24 @@ body {
 
 .right-banner {
 
+}
+
+.logo-newsweek {
+  /* width: 450px; */
+}
+
+.fa-user {
+  color: #fdc8c3;
+}
+
+.fa-bars {
+  color: #fb9b93
+}
+
+.navbar-toggler {
+  color: #fb9b93;
+}
+
+.navbar-toggler-icon {
+  color: #fb9b93;
 }
