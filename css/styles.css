@@ -4,26 +4,7 @@ body {
 
 /* ================== HEADER SECTION ================= */
 .banner {
-  background-color: #f72210 !important;
-  /* height: 80px;
-  width: 100%;
-  display: flex; */
-}
-
-.left-banner {
-
-}
-
-.center-banner {
-
-}
-
-.right-banner {
-
-}
-
-.logo-newsweek {
-  /* width: 450px; */
+  background-color: #f72210;
 }
 
 .fa-user {
@@ -40,4 +21,52 @@ body {
 
 .navbar-toggler-icon {
   color: #fb9b93;
+}
+
+/* ===================== TOP ARTICLES ============= */
+#top-articles {
+
+}
+
+.section-title {
+  color: gray;
+}
+
+.test {
+  height:50px;
+  border: 1px solid green;
+  background-color: violet;
+}
+
+.debate {
+  border: none;
+  border-top: 4px solid grey;
+}
+
+.vs {
+  height: 4px;
+  border: none;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.vs-circle{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  color: white;
+  background-color: black;
+  padding: 2%;
+  left: 50%;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.mt-0 {
+  font-size: 17px;
+}
+
+/* ===================== IN THE MAGAZINE ============ */
+#inthemagazine {
+
 }
