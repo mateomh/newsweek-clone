@@ -12,8 +12,8 @@
   <link rel="icon" href="./images/small-icon.jpg">
   <title>NewsWeek - Clone</title>
 </head>
-<body>
-  <header>
+<body class="container">
+  <header class="container-fluid">
     <!-- <div class="banner container-fluid row d-lg-none">
       <div class="col-8 text-left">
         <img class="w-75" src="./images/Newsweek-logo-1986.png" alt="#">
@@ -25,7 +25,7 @@
       </div>
     </div> -->
 
-    <div class="banner container-fluid d-none d-lg-flex row">
+    <div class="banner m-0 container-fluid d-none d-lg-flex row">
       <div class="left-banner text-white col-4 pl-5 pt-3">
         <p><i class="fa fa-cloud" aria-hidden="true"></i> New York, US ></p>
         <p>28-Jul-2020</p>
@@ -38,11 +38,8 @@
         <button type="button" class="btn btn-warning rounded-pill">Subscribe></button>
       </div>
     </div>
-  </header>
-  <main>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner">
+    <nav class="navbar container-fluid navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner">
       <div class="col-8 text-left">
         <img class="w-75" src="./images/Newsweek-logo-1986.png" alt="#">
       </div>
@@ -68,7 +65,7 @@
             <a class="nav-link font-weight-bold" href="#">Business</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Tech & Science</a>
+            <a class="nav-link font-weight-bold w-100" href="#">Tech & Science</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">Culture</a>
@@ -117,7 +114,7 @@
 
 
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
+    <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -168,7 +165,7 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
+    <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -197,35 +194,150 @@
         
       </div>
     </nav>
+
+
+  </header>
+  <main class="container">
+
+
+    
     
     <section id="top-articles" class="container-fluid">
       <div class="row">
-        <div class="featured-stories col-4">
+        <div class="featured-stories col-3">
           <h4 class="section-title">Featured Stories</h4>
-          <div class="test"></div>
-          <div class="test"></div>
-          <div class="test"></div>
-          <div class="test"></div>
-          <div class="test"></div>
+          
+            <div class="card border-0">
+              <img src="./images/featured1.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">Portland Mayor Calls for 'Cease-fire' Meeting with Trump Administration</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="./images/featured2.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">Trump Shares Conspiracy Theory About Hydroxychloroquine and 2020 Election</h5>
+                <p class="card-text">The president shared a post which suggested the use of the drug is being suppressed in order to keep the economy down ahead of November's vote.</p>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="./images/featured3.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">Russia Mass COVID-19 Vaccination Campaign Possible by Start of 2021</h5>
+                <p class="card-text">President of the Russian Academy of Sciences said hundreds of millions of doses could potentially be available by the start of the year.</p>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="./images/featured4.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">Fauci Rejects False COVID-19 'Cure' Again As Trump Renews Attacks On Him</h5>
+                <p class="card-text">The immunologist has rejected claims shared by the president, in the latest installment of a public split between the pair.</p>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <img src="./images/featured5.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">Senate GOP Accused of Using Coronavirus Bill to Indirectly Fund Border Wall</h5>
+                <p class="card-text">"The bill provides nothing to address the long lines at foodbanks...but we can shore up the defense industry?" said Democratic Vermont Sen. Patrick Leahy.</p>
+              </div>
+            </div>
+         
+         
         </div>
-        <div class="stories col-4">
+        <div class="stories col-6">
           <h4 class="section-title">Top Story</h4>
-          <div class="top-story test"></div>
+          <div class="card border-0">
+            <img src="./images/topstory.webp" class="card-img-top" alt="...">
+            <div class="card-body px-0 py-1">
+              <h5 class="card-title">What Scientific Tests Reveal About Dr. Immanuel's Hydroxychloroquine Claims</h5>
+              <p class="card-text">Early observational studies seemed promising. But the gold-standard evidence on hydroxycholoquine is beginning to mount, and it's not looking good.</p>
+            </div>
+          </div>
+
           <h4 class="section-title">My Turn</h4>
-          <div class="small-stories container">
-            <div class="row">
-              <div class="test col-4"></div>
-              <div class="test col-4"></div>
-              <div class="test col-4"></div>
+          <div class="small-stories container d-flex justifiy-content-between">
+            <div class="row d-flex justifiy-content-between">
+
+              <div class="card border-0 col-4">
+                <img src="./images/myturn1.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">'I Ran 22 Miles In A Mask To Show They Are Safe'</p>
+                </div>
+              </div>
+
+              <div class="card border-0 col-4">
+                <img src="./images/myturn2.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">'I've Been A Teacher For 23 Years—I Wrote My Will Because Of COVID-19'</p>
+                </div>
+              </div>
+
+              <div class="card border-0 col-4">
+                <img src="./images/myturn3.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">'I've Been Caught Between 3 Angry Bears And Lost A Camera To A Lion'</p>
+                </div>
+              </div>
+
+              
+
+
             </div>
           </div>
           <h4 class="section-title">Culture & Travel</h4>
           <div class="small-stories container">
             <div class="row">
-              <div class="test col-4"></div>
-              <div class="test col-4"></div>
-              <div class="test col-4"></div>
+
+
+
+
+
+              <div class="card border-0 col-4">
+                <img src="./images/culture1.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">How Olivia de Havilland Defied Male Studio Bosses—While Charming Audiences</p>
+                </div>
+              </div>
+
+              <div class="card border-0 col-4">
+                <img src="./images/culture2.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">Missing the Olympics? Airbnb Is Offering a Way to Get Your Olympic Fix</p>
+                </div>
+              </div>
+
+              <div class="card border-0 col-4">
+                <img src="./images/culture3.webp" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-1">
+                  <p class="card-text">Vacation in a Glass: Cocktails Around the World</p>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
             </div>
+            
+
+
+
+
+
+
+
+
+
+
+
           </div>
           <div class="other-stories">
             <h4 class="section-title">More stories</h4>
@@ -235,7 +347,7 @@
             <div class="test"></div>
           </div>
         </div>
-        <div class="side-stories col-4">
+        <div class="side-stories col-3">
           <h4 class="section-title">The Debate</h4>
           <hr class="debate">
           <div class="test"></div>
