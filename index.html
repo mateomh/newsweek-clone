@@ -13,25 +13,14 @@
   <title>NewsWeek - Clone</title>
 </head>
 <body>
-  <header class="container-fluid">
-    <!-- <div class="banner container-fluid row d-lg-none">
-      <div class="col-8 text-left">
-        <img class="w-75" src="./images/Newsweek-logo-1986.png" alt="#">
-      </div>
-      <div class="col-4 row border m-0">
-        <p><i class="fa fa-user" aria-hidden="true"></i></p>
-        <button type="button" class="btn btn-warning rounded-pill px-1">Subscribe></button>
-        <p><i class="fa fa-bars" aria-hidden="true"></i></p>
-      </div>
-    </div> -->
-
-    <div class="banner m-0 container-fluid d-none d-lg-flex row">
+  <header class="container-fluid container-lg">
+    <div class="banner m-0 container-fluid container-lg d-none d-lg-block d-lg-flex row">
       <div class="left-banner text-white col-4 pl-5 pt-3">
         <p><i class="fa fa-cloud" aria-hidden="true"></i> New York, US ></p>
         <p>28-Jul-2020</p>
       </div>
       <div class="center-banner text-center col-4 p-0 m-0">
-        <img class="logo-newsweek m-0 w-50 p-0 pt-2" src="./images/Newsweek-logo-1986.png" alt="#">
+        <img class="logo-newsweek m-0 w-50 p-0 pt-4" src="./images/Newsweek-logo-1986.png" alt="#">
       </div>
       <div class="right-banner col-4 text-right pt-5 pr-3">
         <button type="button" class="btn btn-outline-light border-0">Login</button>
@@ -39,7 +28,7 @@
       </div>
     </div>
 
-    <nav class="navbar container-fluid navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner">
+    <nav class="navbar container-fluid container-lg navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner">
       <div class="col-8 text-left">
         <img class="w-75" src="./images/Newsweek-logo-1986.png" alt="#">
       </div>
@@ -51,7 +40,6 @@
     
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search">
           </form>
@@ -112,17 +100,8 @@
       </div>
     </nav>
 
-
-    
-    <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
-          
+    <nav class="navbar navbar-expand-lg container-fluid container-lg navbar-light bg-light d-none d-lg-flex">
+        <ul class="navbar-nav text-nowrap">
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">U.S</a>
           </li>
@@ -148,7 +127,7 @@
             <a class="nav-link font-weight-bold" href="#">Health</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">The Debate</a>
+            <a class="nav-link font-weight-bold text" href="#">The Debate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">Vantage</a>
@@ -156,16 +135,16 @@
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">Weather</a>
           </li>
-          <hr>         
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          </form>
-        </ul>
-        
-      </div>
+          <li class="nav-item">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 w-25 btn-outline-dark border-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </li>
+      </ul> 
     </nav>
 
-    <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
+    <nav class="navbar container-fluid container-lg navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -1238,98 +1217,98 @@
           <span class="pt-lg-5 text-secondary"><small>© 2020 NEWSWEEK</small></span>
         </div>
         <div class="col col-md-4 text-left text-md-right text-secondary">
-          <a href="#" class="badge-light">
+          <a href="#" class="badge-light text-secondary">
             <i class="fa fa-facebook-square m-1 fa-2x" aria-hidden="true"></i>      
           </a>
-          <a href="#" class="badge-light">
+          <a href="#" class="badge-light text-secondary">
             <i class="fa fa-twitter m-1 fa-2x" aria-hidden="true"></i>                  
           </a>
-          <a href="#" class="badge-light">
+          <a href="#" class="badge-light text-secondary">
             <i class="fa fa-instagram m-1 fa-2x" aria-hidden="true"></i>                  
           </a>
-          <a href="#" class="badge-light">
+          <a href="#" class="badge-light text-secondary">
             <i class="fa fa-tumblr m-1 fa-2x" aria-hidden="true"></i>      
           </a>
-          <a href="#" class="badge-light">
+          <a href="#" class="badge-light text-secondary">
             <i class="fa fa-linkedin m-1 fa-2x" aria-hidden="true"></i>      
           </a>          
         </div>
       </div>
       <hr>
       <p>
-        <strong>
+        <strong class="text-secondary">
           Editions:
         </strong> 
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           U.S. Edition        
         </a>       
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           日本         
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Pakistan        
         </a> 
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Polska        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           România        
         </a>        
       </p>
       <p>
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           About Us        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Corrections        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Contact Us        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Editorial Guidelines        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Advertise        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Copyright        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Terms & Conditions        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Privacy Policy        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Cookie Policy        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Terms of Sale        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Archive        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Announcements        
         </a>
          |
-        <a href="#" class="badge-light">
+        <a href="#" class="badge-light text-secondary">
           Consent preferences        
         </a>        
       </p>            

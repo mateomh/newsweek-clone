@@ -27,9 +27,9 @@ body {
   color: #fb9b93;
 }
 
-/* .container-1310 {
-  width: 1310px;
-} */
+.search-size {
+  width: 2%;
+}
 
 /* ===================== TOP ARTICLES ============= */
 #top-articles {
