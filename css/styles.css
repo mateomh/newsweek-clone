@@ -114,3 +114,11 @@ body {
 .red-logo {
   width: 280px;
 }
+
+.badge-light {
+  background: none !important;
+}
+
+.badge-light:hover {
+  background: none !important;
+}
