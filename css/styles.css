@@ -76,3 +76,31 @@ body {
 #inthemagazine {
 
 }
+
+.section-header {
+  color: gray;
+  text-align: center;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.background-news {
+  background-color: orangered;
+}
+
+.text-news {
+  color: orangered;
+  padding-left: 2%;
+}
+
+.card-header-img {
+  height: 12vw;
+}
+
+/* ============================ EDITOR PICKS ======================= */
+#editor-picks {
+  
+}
