@@ -96,9 +96,9 @@ body {
   padding-left: 2%;
 }
 
-.card-header-img {
-  height: 12vw;
-}
+/* .card-header-img {
+  height: 12vh;
+} */
 
 /* ============================ EDITOR PICKS ======================= */
 #editor-picks {
