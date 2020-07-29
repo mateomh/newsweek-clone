@@ -12,7 +12,7 @@
   <link rel="icon" href="./images/small-icon.jpg">
   <title>NewsWeek - Clone</title>
 </head>
-<body class="container">
+<body>
   <header class="container-fluid">
     <!-- <div class="banner container-fluid row d-lg-none">
       <div class="col-8 text-left">
@@ -197,17 +197,27 @@
 
 
   </header>
-  <main class="container">
+  <main class="container-fluid container-lg">
 
     <section id="top-articles" class="container-fluid">
-      <div class="row">
-        <div class="featured-stories col-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="top-story col d-block d-sm-none mt-5">
+            <h4 class="section-title">Top Story</h4>
+            <div class="card border-0 mb-3">
+              <img src="./images/topstory.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">What Scientific Tests Reveal About Dr. Immanuel's Hydroxychloroquine Claims</h5>
+                <p class="card-text">Early observational studies seemed promising. But the gold-standard evidence on hydroxycholoquine is beginning to mount, and it's not looking good.</p>
+              </div>
+            </div>
+          </div>
+        <div class="featured-stories col col-md-6 col-lg-3 mt-5">
           <h4 class="section-title">Featured Stories</h4>
           
             <div class="card border-0">
               <img src="./images/featured1.webp" class="card-img-top" alt="...">
               <div class="card-body px-0 py-1">
-                <h5 class="card-title">Portland Mayor Calls for 'Cease-fire' Meeting with Trump Administration</h5>
+                <h5 class="card-title font-weight-bolder">Portland Mayor Calls for 'Cease-fire' Meeting with Trump Administration</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -215,7 +225,7 @@
             <div class="card border-0">
               <img src="./images/featured2.webp" class="card-img-top" alt="...">
               <div class="card-body px-0 py-1">
-                <h5 class="card-title">Trump Shares Conspiracy Theory About Hydroxychloroquine and 2020 Election</h5>
+                <h5 class="card-title font-weight-bolder">Trump Shares Conspiracy Theory About Hydroxychloroquine and 2020 Election</h5>
                 <p class="card-text">The president shared a post which suggested the use of the drug is being suppressed in order to keep the economy down ahead of November's vote.</p>
               </div>
             </div>
@@ -223,7 +233,7 @@
             <div class="card border-0">
               <img src="./images/featured3.webp" class="card-img-top" alt="...">
               <div class="card-body px-0 py-1">
-                <h5 class="card-title">Russia Mass COVID-19 Vaccination Campaign Possible by Start of 2021</h5>
+                <h5 class="card-title font-weight-bolder">Russia Mass COVID-19 Vaccination Campaign Possible by Start of 2021</h5>
                 <p class="card-text">President of the Russian Academy of Sciences said hundreds of millions of doses could potentially be available by the start of the year.</p>
               </div>
             </div>
@@ -231,7 +241,7 @@
             <div class="card border-0">
               <img src="./images/featured4.webp" class="card-img-top" alt="...">
               <div class="card-body px-0 py-1">
-                <h5 class="card-title">Fauci Rejects False COVID-19 'Cure' Again As Trump Renews Attacks On Him</h5>
+                <h5 class="card-title font-weight-bolder">Fauci Rejects False COVID-19 'Cure' Again As Trump Renews Attacks On Him</h5>
                 <p class="card-text">The immunologist has rejected claims shared by the president, in the latest installment of a public split between the pair.</p>
               </div>
             </div>
@@ -239,7 +249,7 @@
             <div class="card border-0">
               <img src="./images/featured5.webp" class="card-img-top" alt="...">
               <div class="card-body px-0 py-1">
-                <h5 class="card-title">Senate GOP Accused of Using Coronavirus Bill to Indirectly Fund Border Wall</h5>
+                <h5 class="card-title font-weight-bolder">Senate GOP Accused of Using Coronavirus Bill to Indirectly Fund Border Wall</h5>
                 <p class="card-text">"The bill provides nothing to address the long lines at foodbanks...but we can shore up the defense industry?" said Democratic Vermont Sen. Patrick Leahy.</p>
               </div>
             </div>
@@ -247,16 +257,17 @@
          
         </div>
 
-        <div class="stories col-6">
-          <h4 class="section-title">Top Story</h4>
-          <div class="card border-0 mb-3">
-            <img src="./images/topstory.webp" class="card-img-top" alt="...">
-            <div class="card-body px-0 py-1">
-              <h5 class="card-title">What Scientific Tests Reveal About Dr. Immanuel's Hydroxychloroquine Claims</h5>
-              <p class="card-text">Early observational studies seemed promising. But the gold-standard evidence on hydroxycholoquine is beginning to mount, and it's not looking good.</p>
+        <div class="stories col col-md-6 col-lg-6 mt-5">
+          <div class="d-none d-sm-block">
+            <h4 class="section-title">Top Story</h4>
+            <div class="card border-0 mb-3">
+              <img src="./images/topstory.webp" class="card-img-top" alt="...">
+              <div class="card-body px-0 py-1">
+                <h5 class="card-title">What Scientific Tests Reveal About Dr. Immanuel's Hydroxychloroquine Claims</h5>
+                <p class="card-text">Early observational studies seemed promising. But the gold-standard evidence on hydroxycholoquine is beginning to mount, and it's not looking good.</p>
+              </div>
             </div>
           </div>
-
           <h4 class="section-title">My Turn</h4>
           <div class="small-stories container-fluid">
             <div class="row">
@@ -323,16 +334,116 @@
                 "Hiding how a campaign is spending its money is a flat violation of federal law," Trevor Potter, the president of the Campaign Legal Center and a former chairman of the FEC, told Newsweek.
               </div>
             </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores2.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Trump's Approval Rating Sinks to 17-Month Low as Election Looms Closer</h5>
+                An approval rating tracker found the president was backed by just 40.2 percent of Americans as of Wednesday morning.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores3.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Average U.S. Coronavirus Deaths Have Been Rising Every Day for Past 14 Days</h5>
+                The country's seven-day rolling average of new COVID-19 deaths has spiked nearly every day since July 6.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores4.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Michelle Obama: America's Gotten 'Super, Super Bad,' Urges People to Vote</h5>
+                Michelle worries that young people who have a cynical a view of government wouldn't vote in November.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores5.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Amid Oregon Protests, Third of Citizens Want to Defund the Police: Poll</h5>
+                More than two-thirds of Oregonians polled said they support the Black Lives Matter movement.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores6.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Jeff Bezos Set to Defend Amazon from Antitrust Concerns, Praise America</h5>
+                "There are things small companies simply can't do. I don't care how good an entrepreneur you are, you're not going to build [a] Boeing 787 in your garage," the Amazon boss is expected to tell politicians on Wednesday.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores7.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Pelosi Says GOP Not Ready to Negotiate Stimulus Amid Senate Rebellion</h5>
+                The House speaker has suggested Senate Republicans cannot get the level of support they need in order to pass their proposals in the upper chamber of Congress.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores8.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Asia Facing Second Wave of Coronavirus As China Records 101 New Cases</h5>
+                As of July 28, Asia has recorded more than 3.9 million confirmed COVID-19 cases.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores9.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Move to Name Jeffrey Epstein 'Victims' Is 'Alarming,' Says Prosecutor</h5>
+                Moves to name alleged victims in Ghislaine Maxwell's prosecution on Jeffrey Epstein-related grooming charges are "alarming" and "offensive," the acting U.S. attorney
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores10.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Zuckerberg Defiant about Facebook's Power—'We Got There the American Way'</h5>
+                "Facebook is a successful company now, but we got there the American way: we started with nothing and provided better products that people find valuable," Zuckerberg will say.
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores11.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Trump 'Henchman' Bill Barr Shows Double Standards on Protests: Jayapal</h5>
+                "This is Bill Barr and his selective enforcement," said Rep. Pramila Jayapal (D-WA).
+              </div>
+            </div>
+            <hr>
+            <div class="media">
+              <img src="./images/mores12.webp" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 font-weight-bolder">Stella Immanuel Doubles Down Amid Storm Over Trump Tweet, 'Demons Comments</h5>
+                The doctor claimed hydroxychloroquine was a cure for COVID-19 in a video shared by the president this week.
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="side-stories col-3">
+        <div class="side-stories col col-md-12 col-lg-3 mt-5">
           <h4 class="section-title">The Debate</h4>
           <hr class="debate">
-          <div class="test"></div>
+          <div class="media">
+            <img src="./images/opinion2.webp" class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0 font-weight-bolder">Everyone Benefits From Private Equity's Value Creation</h5>
+              BY <strong>TODD HENDERSON</strong>
+            </div>
+          </div>
           <div class="vs-circle">VS</div>
           <hr class="vs">
-          <div class="test"></div>
+          <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 font-weight-bolder">Private Equity Captures Rather Than Creates Value</h5>
+              BY <strong>OREN CASS</strong>
+            </div>
+            <img src="./images/opinion4.webp" class="mr-3" alt="...">
+          </div>
           <hr class="debate">
 
           <h4 class="section-title">Opinion</h4>
@@ -387,7 +498,7 @@
       </div>
     </section>
 
-    <section id="inthemagazine" class="container-lg mt-5">
+    <section id="inthemagazine" class="container-fluid container-lg mt-5">
       <div class="section-header">
         <h3><img class="logo" src="./images/small-icon.jpg"/> In The Magazine</h3>
       </div>
@@ -463,7 +574,7 @@
         <h3><img class="logo" src="./images/small-icon.jpg"/> EDITOR'S PICK</h3>
       </div>
       <hr>
-      <div class="row row-cols-1 row-cols-md-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
         <div class="col mb-4">
           <div class="card border-0">
             <img src="./images/editors1.webp" class="card-img-top mb-2" alt="...">
@@ -813,8 +924,8 @@
     <hr>
 
     <section id="Promo" class="container-lg mt-5">
-      <div class="row row-cols-1">
-        <div class="col-md-8 mb-4">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col-lg-7 col-xl-8 mb-4">
           <p class="text-news mb-3 pl-0 font-weight-bolder">SUBSCRIBE</p>
           <div class="card mb-3 bg-light border-0">
             <div class="row no-gutters">
@@ -831,7 +942,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
+        <div class="col-lg-5 col-xl-4 mb-4">
           <p class="text-news mb-3 pl-0 font-weight-bolder">NEWSLETTER</p>
           <div class="card mb-3">
             <div class="row no-gutters">
@@ -855,20 +966,19 @@
   </main>
   <footer>
     <div id="footer-header" class="container-lg">
-      <div class="row row-cols-1 row-cols-md-3">
+      <div class="row row-cols-1 row-cols-md-2">
 
-        <div class="col pr-0">
+        <div class="col col-md-8 pr-0">
           <img src="./images/red-logo.png" alt="#" class="red-logo p-0">
+          <br class="d-md-none">
+          <span class="pt-lg-5 text-secondary"><small>© 2020 NEWSWEEK</small></span>
         </div>
-        <div class="col text-left">
-          <p class="m-3">© 2020 NEWSWEEK</p>
-        </div>
-        <div class="col">
-          <i class="fa fa-facebook-square m-2 fa-3x" aria-hidden="true"></i>
-          <i class="fa fa-twitter m-2 fa-3x" aria-hidden="true"></i>
-          <i class="fa fa-instagram m-2 fa-3x" aria-hidden="true"></i>
-          <i class="fa fa-tumblr m-2 fa-3x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin m-2 fa-3x" aria-hidden="true"></i>
+        <div class="col col-md-4 text-left text-md-right text-secondary">
+          <i class="fa fa-facebook-square m-1 fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter m-1 fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram m-1 fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-tumblr m-1 fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin m-1 fa-2x" aria-hidden="true"></i>
         </div>
       </div>
       <hr>
