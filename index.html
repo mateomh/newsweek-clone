@@ -13,14 +13,14 @@
   <title>NewsWeek - Clone</title>
 </head>
 <body>
-  <header class="container-fluid container-lg">
+  <header class="container-fluid container-lg px-0">
     <div class="banner m-0 container-fluid container-lg d-none d-lg-block d-lg-flex row">
       <div class="left-banner text-white col-4 pl-5 pt-3">
         <p><i class="fa fa-cloud" aria-hidden="true"></i> New York, US ></p>
         <p>28-Jul-2020</p>
       </div>
       <div class="center-banner text-center border col-4 p-0 m-0">
-        <img class="logo-newsweek border m-0 p-0 pt-4" src="./images/Newsweek-logo-1986.png" alt="#">
+        <img class="logo-newsweek m-0 p-0 pt-4" src="./images/Newsweek-logo-1986.png" alt="#">
       </div>
       <div class="right-banner col-4 text-right pt-5 pr-3">
         <button type="button" class="btn btn-outline-light border-0">Login</button>
@@ -28,15 +28,18 @@
       </div>
     </div>
 
-    <nav class="navbar container-fluid container-lg navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner">
+    <nav class="navbar container-fluid container-lg navbar-expand-lg navbar-light  d-lg-none d-sm-flex banner flex-nowrap">
       <div class="col-6 col-md-8 text-left">
-        <img class="w-75" src="./images/Newsweek-logo-1986.png" alt="#">
+        <img class="w-50 logo-medium-size" src="./images/Newsweek-logo-1986.png" alt="#">
       </div>
-      <p class="p-0 m-0"><i class="fa fa-user fa-2x" aria-hidden="true"></i></p>
-      <button type="button" class="btn btn-warning rounded-pill">Subscribe></button>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="row">
+        <p class="p-0 m-0"><i class="fa fa-user fa-2x mr-2 mt-2" aria-hidden= "true"></i></p>
+        <button type="button" class="btn btn-warning rounded-pill mt-md-1  m-0 h-75 w-50">Subscribe></button>
+        <button class="navbar-toggler border-0 mt-1" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
+      </div>
+      
     
       <div class="collapse navbar-collapse bg-light pl-2" id="navbarTogglerDemo02">
           <form class="form-inline my-2 my-lg-0">
