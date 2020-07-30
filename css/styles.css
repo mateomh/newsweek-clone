@@ -31,6 +31,14 @@ body {
   margin: 0;
 }
 
+.small-sign-text-blue {
+  opacity: 1;
+  font-weight: bold;
+  color: #3581f4;
+  padding: 0;
+  margin: 0;
+}
+
 article {
   clear: both;
 }
