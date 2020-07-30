@@ -16,7 +16,7 @@ body {
 }
 
 .fa-bars {
-  color: #fb9b93
+  color: #fb9b93;
 }
 
 .navbar-toggler {
@@ -36,9 +36,6 @@ body {
 }
 
 /* ===================== TOP ARTICLES ============= */
-#top-articles {
-
-}
 
 .section-title {
   color: gray;
@@ -60,7 +57,7 @@ body {
   border-bottom: 1px solid grey;
 }
 
-.vs-circle{
+.vs-circle {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -76,9 +73,6 @@ body {
 }
 
 /* ===================== IN THE MAGAZINE ============ */
-#inthemagazine {
-
-}
 
 .section-header {
   color: gray;
@@ -99,18 +93,13 @@ body {
   padding-left: 2%;
 }
 
-/* .card-header-img {
-  height: 12vh;
-} */
 
 /* ============================ EDITOR PICKS ======================= */
-#editor-picks {
-  
-}
+
 
 /* =========================== PROMO =============================== */
 
-.newslett-img{
+.newslett-img {
   height: 100%;
 }
 
