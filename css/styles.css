@@ -31,6 +31,10 @@ body {
   width: 2%;
 }
 
+.search-btn {
+  width: 10%;
+}
+
 /* ===================== TOP ARTICLES ============= */
 #top-articles {
 
@@ -62,8 +66,7 @@ body {
   width: 40px;
   color: white;
   background-color: black;
-  padding: 2%;
-  left: 50%;
+  left: 40%;
   border-radius: 100%;
   text-align: center;
 }
