@@ -1,3 +1,7 @@
+* { 
+  font-size: 1.17vw;
+}
+
 body {
   margin: 0;
 }
@@ -8,15 +12,16 @@ body {
 
 .card-img-div {
   position: relative;
+  padding: 0;
 }
 
 .small-sign {
   background-color: rgb(255,255,255,0.8);
   text-align: center;
   width: fit-content;
-  height: 30px;
-  padding: 0 5px;
+  height: auto;
   margin: 0;
+  padding: 5px;
   position: absolute;
   bottom: 0;
   left:0;
@@ -26,6 +31,8 @@ body {
   opacity: 1;
   font-weight: bold;
   color: orangered;
+  padding: 0;
+  margin: 0;
 }
 
 /* ================== HEADER SECTION ================= */
