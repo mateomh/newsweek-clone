@@ -11,6 +11,11 @@ body {
   background-color: #f72210;
 }
 
+.logo-newsweek {
+  height: 80%;
+  width: 100%;
+}
+
 .fa-user {
   color: #fdc8c3;
 }
