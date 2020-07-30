@@ -1,13 +1,31 @@
-* {
-  font-size: 1vw;;
-}
-
 body {
   margin: 0;
 }
 
 .check {
   border: 1px solid goldenrod;
+}
+
+.card-img-div {
+  position: relative;
+}
+
+.small-sign {
+  background-color: rgb(255,255,255,0.8);
+  text-align: center;
+  width: fit-content;
+  height: 30px;
+  padding: 0 5px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+.small-sign-text {
+  opacity: 1;
+  font-weight: bold;
+  color: orangered;
 }
 
 /* ================== HEADER SECTION ================= */
