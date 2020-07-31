@@ -12,7 +12,7 @@ body {
 }
 
 .small-sign {
-  background-color: rgb(255,255,255,0.8);
+  background-color: rgb(255, 255, 255, 0.8);
   text-align: center;
   width: fit-content;
   height: auto;
@@ -20,7 +20,7 @@ body {
   padding: 5px;
   position: absolute;
   bottom: 0;
-  left:0;
+  left: 0;
 }
 
 .small-sign-text {
@@ -44,6 +44,7 @@ article {
 }
 
 /* ================== HEADER SECTION ================= */
+
 .banner {
   background-color: #f72210;
 }
@@ -52,10 +53,6 @@ article {
   height: 80%;
   width: 100%;
 }
-
-/* .logo-medium-size {
-  width: 50px;
-} */
 
 .fa-user {
   color: #fdc8c3;
